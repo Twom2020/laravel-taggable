@@ -18,6 +18,12 @@ You must add the service provider to `config/app.php`
 ```
 php artisan vendor:publish
 ```
+
+**Run migration**
+> **Note:** create taggable tables.
+```
+php artisan migrate
+```
 <hr>
 
 ### Config:

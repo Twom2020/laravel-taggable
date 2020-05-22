@@ -1,0 +1,31 @@
+{
+    "name": "twom/laravel-taggable",
+    "description": "taggable system",
+    "type": "library",
+    "require": {
+        "php": "^7.2",
+        "laravel/framework": ">=5.8"
+    },
+    "keywords": [
+        "taggable",
+        "laravel taggable",
+        "taggable system",
+        "tag"
+    ],
+    "homepage": "https://github.com/Twom2020/laravel-taggable",
+    "authors": [
+        {
+            "name": "AliGhaleyan",
+            "email": "alighalehban1379@gmail.com"
+        },
+        {
+            "name": "alireza2000sajedi",
+            "email": "alireza2000sajedi@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Twom\\Taggable\\": "src/"
+        }
+    }
+}
